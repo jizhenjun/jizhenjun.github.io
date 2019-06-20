@@ -1,0 +1,92 @@
+#background{/*游戏背景*/
+  width: 375px;
+  height: 667px; 
+  margin: 0 auto;
+  background-image: url(../assets/img/background.png);
+  background-size: 100% 100%;
+  position: relative;
+  overflow: hidden;
+}
+#background2{/*游戏背景2*/
+  width: 375px;
+  height: 500px; 
+  background-image: url(../assets/img/grass.png);
+  background-size: 100% 33%;
+  position: absolute;
+  left: 375;
+  top: 502px;
+}
+#headTitle{/*开始标题*/
+  width: 138px;
+  height: 102.5px;
+  background-image: url(../assets/img/title.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 125px;
+  top: 50px;
+}
+#startButton{/*开始按钮*/
+  width: 114.3px;
+  height: 41.03px;
+  border: none;
+  background-image: url(../assets/img/button.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 129px;
+  top: 200px;
+  background-color: transparent;
+  padding-top:10px;
+  padding-left:54px;
+}
+#settingButton{/*设置按钮*/
+  width: 114.3px;
+  height: 41.03px;
+  border: none;
+  padding: 0;margin: 0;
+  background-image: url(../assets/img/button.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 129px;
+  top: 280px;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-left: 54px;
+}
+#exitButton{/*退出按钮*/
+  width: 80px;
+  height: 60px;
+  border: none;
+  padding: 0;margin: 0;
+  background-image: url(../assets/img/exit.gif);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: transparent;
+}
+#star1{/*星星1*/
+  height: 80px;
+  width: 70px;
+  background-image: url(../assets/img/star.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50px;
+  top: 380px;
+}
+#star2{/*星星2*/
+  height: 80px;
+  width: 70px;
+  background-image: url(../assets/img/star.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 160px;
+  top: 380px;
+}#star3{/*星星3*/
+  height: 80px;
+  width: 70px;
+  background-image: url(../assets/img/star.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 270px;
+  top: 380px;
+}
